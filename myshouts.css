@@ -1,0 +1,29 @@
+
+
+/* shouts */
+#myshouts_shouts { margin:10px 0;  }
+#myshouts_shouts ul { list-style:none; margin:0; padding:0; overflow:hidden; }
+#myshouts_shouts ul li { padding:4px; margin-bottom:5px; background:#fff; }
+#myshouts_shouts ul li dl { position:relative; }
+#myshouts_shouts ul li dt, #myshouts_shouts ul li dt a { color:#333; font:bold 11px Arial; } /* name */
+#myshouts_shouts ul li dl .icons { position:absolute; top:5px; right:5px; }
+#myshouts_shouts ul li dl .shout { padding:5px; }
+#myshouts_shouts ul li dl .date { color:#a4a09a; font-size:0.9em;}
+#myshouts_shouts ul li .gravatar { float:left; width:40px; }
+#myshouts_shouts ul li .gravatar img { -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
+
+/* form */
+#myshouts_form { background:#eee; padding:5px; }
+#myshouts_form .inputtext { background:#fff; border:none; font:normal 11px Arial; color:#666; padding:4px; width: 90%; }
+#myshouts_form .name, #myshouts_form .email, #myshouts_form .shout, #myshouts_form .website { padding:4px; }
+#myshouts_form .myshouts_title { font:bold 14px Arial; letter-spacing:-1px; color:#444; }
+
+#myshouts_form .submit { margin-top:10px; }
+#myshouts_form .shoutsubmit { border:1px solid #999; background:#ccc; color:#666; font:bold 11px Arial; padding:5px; }
+#myshouts_form .shoutsubmit_over { border:1px solid red; background:orange; color:#fff; font:bold 11px Arial; padding:5px;  }
+
+
+/* accordion */
+#myshouts_wrapper a.prev { background:#ccc url('icon_prev.png') center 2px no-repeat; display:block; height:10px; margin-bottom:5px; }
+#myshouts_wrapper a.next { background:#ccc url('icon_next.png') center 2px no-repeat; display:block; height:10px; margin-top:5px; margin-bottom:5px; }
+#myshouts_wrapper .prev em, #myshouts_wrapper .next em { display:none }
